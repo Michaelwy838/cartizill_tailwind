@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartizilla | Checkout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div><!--wrapper-->
+        <header class="flex justify-between items-center bg-white py-5 px-20">
+            <div class="flex items-center">
+                <div class="text-4xl font-bold md:ml-5 mb-2">
+                    Cartizilla
+                </div>
+                <div class="text-lg px-7 border-r-2">
+                    <span><i class="fa fa-bars" aria-hidden="true"></i></span> Categories
+                </div>
+                <div class="text-lg ml-5">
+                    Back to main demo
+                </div>
+            </div>
+            <div>
+                <span class="bg-gray-300 py-3 px-4 rounded-full"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                <span class="bg-gray-300 py-3 px-4 rounded-full"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+            </div>
+        </header>
+        <nav class="bg-blue-500 text-center grid grid-cols-1 py-5 md:flex justify-between items-center px-10">
+            <div class="text-4xl text-white text-bold md:pl-10">
+                Checkout
+            </div>
+            <div class="text-white text-lg md:pr-10">
+                <a href="#">Home</a>
+                <a class="ml-4" href="#">Market</a>
+                <a class="ml-4" href="#">Cart</a>
+            </div>
+        </nav>
+        <div class="relative">
+            <span  class="bg-blue-500 py-5 absolute -z-10 h-20 w-full">
+            </span>
+        </div>
+        <div class="grid grid-cols-1 lg:flex bg-white mx-5 md:mx-20 rounded-md mb-20 shadow-2xl mt-5"><!--cartwrapper-->
+            <div class="md:border-r p-10"><!--leftwrapper-->
+                <div class="font-bold border-b pb-3">
+                    Billing details
+                </div>
+                <div class="flex">
+                    <div class="my-3 mr-5">
+                        <label for="">First name</label><br>
+                        <input class="border py-2 rounded px-3 mt-2 w-40 md:w-80" type="text" placeholder="Jonathan">
+                    </div>
+                    <div class="my-3">
+                        <label for="">Last name</label><br>
+                        <input class="border py-2 rounded px-3 w-40 mt-2 md:w-80" type="text" placeholder="Doe">
+                    </div>
+                </div>
+                <div class="my-3 ">
+                    <label for="">Email address</label>
+                    <input class="border px-2 w-full py-2 rounded " type="text" name="" id="" placeholder="contact@createx.studio">
+                </div>
+                <div class="flex">
+                    <div class="my-3 mr-5">
+                        <label for="">Company</label><br>
+                        <input class="border py-2 rounded px-3 mt-2 w-40 md:w-80" type="text" placeholder="Createx studio">
+                    </div>
+                    <div class="my-3">
+                        <label for="">Country</label><br>
+                        <input class="border py-2 rounded px-3 mt-2 w-40 md:w-80" type="text" placeholder="Madagascar">
+                    </div>
+                </div>
+                <ul class="border rounded my-3">
+                    <li class="border-b pl-3 py-3">Pay with Credit Card</li>
+                    <li class="border-b pl-3 py-3">Pay with Paypal</li>
+                    <li class="py-3 pl-3">Pay with account balance</li>
+                </ul>
+            </div>
+            <div class="px-10 py-10 w-full"><!--right wrapper-->
+                <div class="font-bold text-center">
+                    Order summary
+                </div>
+                <div class="border-b py-3 flex">
+                    <div>
+                        <img class="w-20 rounded" src="well.jpg" alt="">
+                    </div>
+                    <div>
+                        <div class="ml-3 text-sm mt-2">
+                            UI Isometric Devices Pack
+                        </div>
+                        <div class="ml-3 text-blue-700">
+                            $23.00 <span class="text-black pl-3 border-l ml-3 text-sm ">Standard license</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-b py-3 flex">
+                    <div>
+                        <img class="w-20 rounded" src="well.jpg" alt="">
+                    </div>
+                    <div>
+                        <div class="ml-3 text-sm mt-2">
+                            UI Isometric Devices Pack
+                        </div>
+                        <div class="ml-3 text-blue-700">
+                            $23.00 <span class="text-black pl-3 border-l ml-3 text-sm ">Standard license</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-b py-3 flex">
+                    <div>
+                        <img class="w-20 rounded" src="well.jpg" alt="">
+                    </div>
+                    <div>
+                        <div class="ml-3 text-sm mt-2">
+                            UI Isometric Devices Pack
+                        </div>
+                        <div class="ml-3 text-blue-700">
+                            $23.00 <span class="text-black pl-3 border-l ml-3 text-sm ">Standard license</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-b">
+                    <div class="flex justify-between my-3">
+                        <div>Subtotal:</div>
+                        <div>$56.00</div>
+                    </div>
+                    <div class="flex justify-between mb-3">
+                        <div>Taxes:</div>
+                        <div>$9.30</div>
+                    </div>
+                </div>
+                <div class="text-4xl text-center my-3 ">
+                    $65. <span class="text-xl">30</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-gray-700 grid grid-cols-1 text-white lg:flex justify-between px-20 py-10"> <!--footer-->
+        <div>
+            <div class="text-center flex items-center justify-center">
+                <div class="text-2xl font-bold mr-5">
+                    Cartizilla 
+                </div>
+                <div class="text-center text-xl mt-2">
+                    Marketplace
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                High quality items created by our global community.
+            </div>
+            <div class="text-center">
+                <ul class="flex mt-3 text-sm">
+                    <li class="mr-3 border-r pr-3"><span class="text-red-500">65,478</span> Products</li>
+                    <li class="mr-3 border-r pr-3"><span class="text-red-500">2,521</span> Members</li>
+                    <li><span class="text-red-500">897 </span> Vendors</li>
+                </ul>
+            </div>
+            <div>
+                <!--icons-->
+            </div>
+        </div>
+        <div class="text-center">
+            <h1 class="font-bold mb-3 mt-3">Categories</h1>
+            <ul class="cursor-pointer">
+                <li>Photos</li>
+                <li>Graphics</li>
+                <li>UI Design</li>
+                <li>Web Themes</li>
+                <li>Fonts</li>
+                <li>Add-Ons</li>
+            </ul>
+        </div>
+        <div class="lg:mr-40 cursor-pointer text-center">
+            <h1 class="font-bold mb-3 mt-3">For members</h1>
+            <ul>
+                <li>Licenses</li>
+                <li>Return policy</li>
+                <li>Payment methods</li>
+                <li>Become a vendor</li>
+                <li>Become an affiliate</li>
+                <li>Marketplace benefits</li>
+            </ul>
+        </div>
+    </div>
+    <div class="bg-gray-950 text-white border-b border-gray-400 py-10 text-center">
+        <h1 class="font-bold mb-3 text-xl">Subscribe to newsletter</h1>
+        <div class="my-3">
+            <input class="py-2 pl-3 border-l rounded-l text-black w-80" type="text" name="" id="" placeholder="Your Email">
+            <span><button class="bg-red-600 py-2 px-3 relative -left-3 z-2 rounded-r">Subscribe</button></span>
+        </div>
+        <h1 class="text-sm">*Receive early discount offers, updates and new products info.</h1>
+    </div>
+    <div class="grid grid-cols-1 mb-5 bg-gray-950 text-white text-center lg:flex justify-between px-20 py-10">
+        <div>
+            © All rights reserved. Made by Createx Studio
+        </div>
+        <ul class="flex cursor-pointer text-center text-sm">
+            <li class="ml-3">Health center</li>
+            <li class="ml-3">Affiliates</li>
+            <li class="ml-3">Support</li>
+            <li>Terms and condition</li>
+        </ul>
+    </div>
+</body>
+</html>
